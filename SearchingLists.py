@@ -163,7 +163,7 @@ class HashTable:                                                            #Thi
             if item is not None:
                 print(str(item))
                 
-print("---------------- #4 ------------------")                     #Adds name and age data into the HashTable
+print("---------------- #3 ------------------")                     #Adds name and age data into the HashTable
 h = HashTable()                                                     # as well as retrieves data specific to one person
 h.add('Jane', '23')
 h.add('Alex', '50')
@@ -176,7 +176,7 @@ h.add('Jason', '18')
 h.add('Mia', '89')
 h.add('Sara', '20')
 h.print()
-h.delete('Jane')
+h.delete('Jane')                                                    #HELP - Is this call to action doing anything??
 h.print()
 print('Meg: ' + h.get('Meg'))
 print()
@@ -195,7 +195,7 @@ def sort_list(MyList):                                                #function 
         MyList[slot] = MyList[posOfMax]
         MyList[posOfMax] = sort
 
-print("---------------- #5 ------------------")        
+print("---------------- #4 ------------------")        
 MyList = [23, 3, 54, 12, 34, 25, 56, 80, 68, 37, 76, 16, 21, 42, 39]  #creates a list with 15 items
 sort_list(MyList)                                                     #calls the function to sort the list
 print(MyList)                                                         #prints the new sorted list
